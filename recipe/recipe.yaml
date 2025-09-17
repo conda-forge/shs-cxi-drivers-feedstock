@@ -14,9 +14,6 @@ build:
   number: 1
   noarch: generic
   script: build.sh
-  skip:
-    - win
-    - osx
 
 tests:
   - script:
