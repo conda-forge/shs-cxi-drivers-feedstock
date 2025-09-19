@@ -17,7 +17,7 @@ build:
 
 tests:
   - script:
-      - test -f $PREFIX/include/linux/cxi.h
+      - test -f $PREFIX/include/linux/cxi/cxi.h
       - test -f $PREFIX/include/uapi/misc/cxi.h
 
 about:
