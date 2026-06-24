@@ -1,6 +1,6 @@
 context:
   name: shs-cxi-drivers
-  version: "14.0.0"
+  version: "14.0.1"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/HewlettPackard/shs-cxi-driver/archive/refs/tags/release/shs-${{ version }}.tar.gz
-  sha256: f6f9c4484381bcf0db8af159992038aa10ab718dae63b9781ace479de96a0bed
+  sha256: 3f197a1ab91156af0b71ddd9fbfadf9cff96092e046973c535a6a358d49cfa7e
 
 build:
   number: 0
